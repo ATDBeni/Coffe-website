@@ -132,3 +132,36 @@ section {
 .product-box{
     margin: 30px;
 }
+h2{
+    text-align: center;
+}
+
+
+.rezervation{
+    display: flex;
+    ;
+    
+}
+
+label{
+    margin-left: 200px;
+    
+}
+
+input{
+    border-top: 0 ;
+    border-left: 0;
+    border-right: 0;
+ 
+}
+
+button{
+    margin-top: 60px;
+    font-size: 30px;
+   margin-left: 380px;
+   
+    
+}
+#time1{
+    margin-left: 263px;
+}

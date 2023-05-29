@@ -1,13 +1,13 @@
 body{
     background-color: white;
 }
-#section--1{
+.home{
     background-image: url(/imagini/coffe1.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     margin-top: 0;
 
 }
@@ -88,19 +88,46 @@ h1{
         width: 400px;
         height: 600px;
         margin-left: 845px;
-        margin-top: -450px;
+        margin-top: -600px;
         border-radius: 79px 0px 0px 79px;
     }
     .img1{
         display: flex;
-        width: 70px;
+       
         height: 70px;
         padding: 10px;
        
     }
     .img2{
+        margin-top: 290px;
         display: flex;
-        width: 70px;
+        width: 100%;
         height: 70px;
         padding: 10px;
     }
+
+.img {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+}
+section {
+  padding: 5rem 0 3rem;
+  
+}
+.section-title {
+  font-size: 50px;
+  font-weight: 50px;
+  text-align: center;
+ 
+}
+.product-title{
+    text-align: center;
+}
+.secondp{
+    text-align: center;
+    padding-bottom: 0;
+}
+.product-box{
+    margin: 30px;
+}

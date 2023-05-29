@@ -61,8 +61,9 @@ h1{
     margin-left: 70px;
     padding-top: 180px;
     font-size: 50px;
-    font-family: 'Limelight';
-}
+    font-family:"Limelight ";
+
+ }
 .first-paragraf{
   
     font-size: 20px;
@@ -155,13 +156,36 @@ input{
  
 }
 
-button{
+.buttonlear{
+    height: 50px;
+    width: 300px;
     margin-top: 60px;
-    font-size: 30px;
+    font-size: 20px;
    margin-left: 380px;
+   background-color:  #461111;
+   color: white;
+   border-radius: 23px;
    
     
 }
 #time1{
     margin-left: 263px;
+}
+#call{
+    width: 40px;
+    height: 40px;
+    
+  
+}
+#atentie{
+    height: 30px;
+    width: 30px;
+}
+h4{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 90px;
+}
+#rezervare{
+    padding-top: 80px;
 }

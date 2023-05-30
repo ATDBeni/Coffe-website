@@ -51,25 +51,24 @@ a{
 }
 
 
-#idk{
-    margin: 0;
-    padding-right: 130px;
-    font-family:Arial, Helvetica, sans-serif;
+#c{
+    margin-top: 0;
+    padding-right: 150px;
     font-size: 30px;
+    font-family: "Limelight";
 }
 h1{
     margin-left: 70px;
-    padding-top: 180px;
+    padding-top: 100px;
     font-size: 50px;
-    font-family:"Limelight ";
-
+font-family: "Limelight";
  }
 .first-paragraf{
   
     font-size: 20px;
     line-height: 50px;
     letter-spacing: 0.06em;
-    width: 600px;
+    width: 625px;
     height:507 ;
     margin-left: 70px;
     font-family: 'Times New Roman', Times, serif;
@@ -86,16 +85,18 @@ h1{
         
     }
     .pozacafea{
-        width: 400px;
-        height: 600px;
-        margin-left: 845px;
-        margin-top: -550px;
+        float: right;
+        width: 350px;
+        height: 400px;
+        margin-top: -400px;
         border-radius: 79px 0px 0px 79px;
+        
     }
     .img1{
         display: flex;
         height: 70px;
         padding: 10px;
+        
        
     }
     .img2{
@@ -123,11 +124,13 @@ section {
 }
 .product-title{
     text-align: center;
+    font-family: "Limelight";
 }
 .secondp{
-    text-align: center;
+    text-align: left;
     padding-bottom: 0;
     margin-top: 330px;
+    margin-left: 250px;
     font-family: 'Comic Sans MS';
 }
 .product-box{
@@ -144,15 +147,19 @@ h2{
     
 }
 
+
 label{
     margin-left: 200px;
-    
+    font-family: "NATS";
+    margin-bottom: 30px;
 }
 
 input{
     border-top: 0 ;
     border-left: 0;
     border-right: 0;
+    outline: none;
+ 
  
 }
 
@@ -161,16 +168,23 @@ input{
     width: 300px;
     margin-top: 60px;
     font-size: 20px;
-   margin-left: 380px;
+   margin-left: 500px;
    background-color:  #461111;
    color: white;
    border-radius: 23px;
    
+   
     
 }
-#time1{
-    margin-left: 263px;
+#name,#time,#phone,#email,#number,#data{
+    width: 300px;
+    ;
+
 }
+ #time1{
+    margin-left: 400px;
+}
+
 #call{
     width: 40px;
     height: 40px;
@@ -178,14 +192,77 @@ input{
   
 }
 #atentie{
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
 }
 h4{
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     padding-top: 90px;
 }
 #rezervare{
     padding-top: 80px;
+    font-family: 'Limelight';
+
+}
+@font-face {
+    font-family: "Limelight";
+    src: url(./font/Limelight-Regular.ttf);
+    
+}
+@font-face {
+    font-family:"NATS" ;
+    src: url(./font/NATS\ 400.ttf);
+}
+#message{
+    width: 400px;
+    height: 152px;
+    margin-left: 200px;
+    top: 64px;
+    border-top: 0 ;
+    border-left: 0;
+    border-right: 0; 
+    outline: none;
+}
+.adress{
+    background-color:  #374151;
+width: 290px;
+height: 300px;
+border-radius: 15px;
+right: 0;
+padding: 0;
+position: absolute;
+justify-content: center;
+top: 200px;
+margin-right: 20px;
+color: white;
+ 
+    
+}
+#line{
+    width: 220px;
+    border-color:  black;
+}
+#three{
+    margin-left:  10px;
+    font-family: 'NATS';
+}
+span{
+    margin-right: 30px;
+}
+.imglogo{
+height: 50px;
+width: 50px;
+display: flex;
+margin-left: 1050px;
+padding-top: 30px;
+
+}
+#namee,#emaill{
+    margin-left: 200px;
+    
+}
+textarea {
+    resize: none;
+
 }

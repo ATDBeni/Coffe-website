@@ -34,6 +34,8 @@ body{
     color: black;
     padding: 0;
     margin: 0; 
+    font-family: "limelight";
+
 
 }
 .navigation{
@@ -54,7 +56,7 @@ a{
 #c{
     margin-top: 0;
     padding-right: 150px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Limelight";
 }
 h1{
@@ -143,7 +145,7 @@ h2{
 
 .rezervation{
     display: flex;
-    ;
+    width: 100%;
     
 }
 
@@ -178,12 +180,9 @@ input{
 }
 #name,#time,#phone,#email,#number,#data{
     width: 300px;
-    ;
-
+  
 }
- #time1{
-    margin-left: 400px;
-}
+ 
 
 #call{
     width: 40px;
@@ -279,4 +278,7 @@ width: 390px;
 }
 #message1{
     height: 150px;
+}
+.rez{
+    margin-left :50px;
 }

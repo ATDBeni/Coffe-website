@@ -25,9 +25,11 @@ body{
 }
 
 .nav__item{
-   padding: 40px;
-   margin: 0;
-   
+    padding-top: 50px;
+     padding-right: 30px;
+    margin: 0;
+  margin-left: 10px;
+   font-size: 20px;
    
 }
 .nav__link{
@@ -35,9 +37,12 @@ body{
     padding: 0;
     margin: 0; 
     font-family: "limelight";
+    
+  
 
 
 }
+ 
 .navigation{
 background-color: white;
 margin-top:0 ; 
@@ -55,9 +60,10 @@ a{
 
 #c{
     margin-top: 0;
-    padding-right: 150px;
-    font-size: 25px;
+    padding-right: 350px;
+    font-size: 30px;
     font-family: "Limelight";
+    padding-top: 40px;
 }
 h1{
     margin-left: 70px;
@@ -153,15 +159,16 @@ h2{
 label{
     font-family: "NATS";
     padding-top: 30px;
-}
-
+     
+  }
+ 
 input{
     border-top: 0 ;
     border-left: 0;
     border-right: 0;
     outline: none;
     padding-top: 30px;
- 
+  
  
 }
 
@@ -249,6 +256,9 @@ color: white;
 span{
     margin-right: 140px;
 }
+#contactspan{
+    margin-right: 50px;
+ }
 .imglogo{
 height: 50px;
 width: 50px;
@@ -274,11 +284,26 @@ textarea {
     border-left: 0;
     border-right: 0;
     outline: none;
-width: 390px;    
+width: 500px;    
 }
 #message1{
     height: 150px;
+    width: 800px;
 }
 .rez{
-    margin-left :50px;
+    margin-left: 200px;
+    
+
 }
+#time,#date,#number,#phone,#name,#email{
+
+    width: 340px;
+    
+}
+ 
+  
+
+  
+  
+  
+ 

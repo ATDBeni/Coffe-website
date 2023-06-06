@@ -1,0 +1,244 @@
+
+ @font-face {
+    font-family: "Limelight";
+    src: url(./font/Limelight-Regular.ttf);}
+    .trip{
+        text-align: left;
+        display: flex;
+        align-items: center;
+        font-family: "limelight";
+     }
+ .primu{
+font-size: 15px;
+flex:1;
+padding: 20px;
+margin: 50px;
+
+ }
+ .doi{
+    flex:1;
+    margin: 50px;
+ }
+ input{
+    outline: none;
+    border: none;
+  }
+ /* .v{
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    position: relative;
+ }
+ .v::before{
+    position: absolute;
+    display: flex;
+     z-index: 1;
+    top: 0.7rem;
+
+    }
+    .v::after{
+        content: url(/imagini/user.png);
+        position: absolute;
+        left: calc(90%);
+        top: 1.2rem;
+    } */
+
+ 
+ .user{
+    height: 20px;
+    width: 20px;
+   display: flex;
+   text-align: right;
+ }
+ .name{
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    position: relative;
+ }
+ .name::after{
+    content: url(/imagini/user.png);
+    position: absolute;
+    left: calc(90%);
+    top: 1.2rem;
+ }
+ .name::before{
+    position: absolute;
+    display: flex;
+     z-index: 1;
+    top: 0.7rem;
+ }
+ .email{
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    position: relative;
+ }
+ .email::after{
+    content: url(/imagini/mail.png);
+    position: absolute;
+    left: calc(90%);
+    top: 1.2rem;
+ }
+ .email::before{
+    position: absolute;
+    display: flex;
+     z-index: 1;
+    top: 0.7rem;
+ }
+ .data{
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    position: relative;
+   
+      
+ }
+ 
+ .data::after{
+   
+    position: absolute;
+    left: calc(90%);
+    top: 1.2rem;
+    content: url(/imagini/calendar.png);
+ }
+ .data::before{
+    position: absolute;
+    display: flex;
+     z-index: 1;
+    top: 0.7rem;
+    
+ }
+ .phone{
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    position: relative;
+ }
+ .phone::after{
+    content: url(/imagini/phone.png);
+    position: absolute;
+    left: calc(90%);
+    top: 1.2rem;
+ }
+ .phone::before{
+    position: absolute;
+    display: flex;
+     z-index: 1;
+    top: 0.7rem;
+ }
+ .number{
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    position: relative;
+ }
+ .number::after{
+    content: url(/imagini/users.png);
+    position: absolute;
+    left: calc(90%);
+    top: 1.2rem;
+ }
+ .number::before{
+    position: absolute;
+    display: flex;
+     z-index: 1;
+    top: 0.7rem;
+ }
+ .time{
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    position: relative;
+ }
+ .time::after{
+ 
+    position: absolute;
+    left: calc(90%);
+    top: 1.2rem;
+    content: url(/imagini/clock.png);
+ }
+ .time::before{
+    position: absolute;
+    display: flex;
+     z-index: 1;
+    top: 0.7rem;
+  
+ }
+ 
+.nav__links{
+    display: flex;
+   float: right;
+    list-style: none;
+   font-size: 23px;
+   margin-left: 90px;
+   margin: 0;
+   padding: 0;
+
+  
+}
+
+.nav__item{
+    padding-top: 50px;
+     padding-right: 30px;
+    margin: 0;
+  margin-left: 10px;
+   font-size: 20px;
+   
+}
+.nav__link{
+    color: black;
+    padding: 0;
+    margin: 0; 
+    font-family: "limelight";
+    
+  
+
+
+}
+ 
+.navigation{
+background-color: white;
+margin-top:0 ; 
+padding: 0;
+text-align: left;
+
+}
+h1{
+    margin-left: 70px;
+    padding-top: 100px;
+    font-size: 50px;
+font-family: "Limelight";
+ }
+ .button{
+    font-size: 40px;
+    border-radius: 20px;
+    margin-left: 100px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-color: white;
+    
+}
+.buttonlear{
+    height: 50px;
+    width: 300px;
+    margin-top: 60px;
+    font-size: 20px;
+   margin-left: 500px;
+   background-color:  #461111;
+   color: white;
+   border-radius: 23px;
+   
+   
+    
+}
+#atentie{
+    height: 20px;
+    width: 20px;
+}
+h4{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 90px;
+}
+h2{
+    text-align: center;
+}
+a{
+text-decoration: none;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}

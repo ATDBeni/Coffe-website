@@ -8,25 +8,23 @@
     <title>Coffe website</title>
   </head>
   <body>
-    <nav class="navigation">
-      <ul class="nav__links">
-        <li class="nav__item">
-          <a class="nav__link" href="Home.html">Home</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="about-us.html">About</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="Meniu.html">Menu</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="reservation.html">Reservavion</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="contact.html">Contact</a>
-        </li>
+    <nav class="main-nav">
+         
+      <ul id="navLinks" class="nav-links">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="Meniu.html">Menu</a></li>
+        <li><a href="Reservation.html">Reservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
+
+      <button id="navToggleBtn" class="nav-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
     </nav>
+  <script src="script.js"></script>
     <h1>Contact</h1>
     <label for="name" id="namee">Name:</label><br>
     <input type="text" id="namee1" placeholder="Enter name here*" /><br /><br><br><br>

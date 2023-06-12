@@ -8,24 +8,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navigation">
-      <ul class="nav__links">
-        <li class="nav__item">
-          <a class="nav__link" href="Home.html">Home</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="about-us.html">About</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="Meniu.html">Menu</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="reservation.html">Reservation</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="contact.html">Contact</a>
-        </li>
+    <nav class="main-nav">
+         
+      <ul id="navLinks" class="nav-links">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="Meniu.html">Menu</a></li>
+        <li><a href="Reservation.html">Reservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
+  
+      <button id="navToggleBtn" class="nav-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
     </nav>
     <h1>Menu</h1>
 
@@ -54,7 +51,7 @@
 
     <div class="img2">
       <div class="product-box">
-        <img src="/imagini/biscuiti.jpeg" alt="" class="product img" style="width:150px ;"/>
+        <img src="/imagini/biscuiti.jpeg" alt="" class="product img" id="chocolatecips" style="width:150px ;"/>
         <h2 class="product-title" style="text-align: left;">Coffee <br>chocolate chip<br>cookies</h2>
       </div>
       <div class="product-box">
@@ -80,5 +77,6 @@
       ARE MORE IN OUR<br />
       HOUSE.SOME INCLUDE TRADITIONAL ITALIAN SNACKS AND DRINKS.
     </p>
+    <script src="script.js"></script>
   </body>
 </html>

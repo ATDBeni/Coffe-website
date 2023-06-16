@@ -60,7 +60,7 @@ a{
 
 .hastagcoffe{
 font-size: 30px;
- margin-right: 400px;
+ margin-right: 300px;
     font-family: "Limelight";
 }
 h1{
@@ -424,6 +424,7 @@ width: 500px;
         margin-top: 1700px;
         display: flex;
         flex-direction: column;
+      
     }
     .secondp{
     margin-left: 0;
@@ -433,7 +434,22 @@ width: 500px;
         width: 10000px;
         height: 200px;
     }
-
+    .adress{
+        text-align: center;
+        margin-top: 480px;
+        justify-content: center;
+        width: 400px;
+    }
+.imglogo{
+margin-left: 20px;
+    margin-top: 380px;
+}
+#message1{
+    width: 400px;
+}
+#namee1,#emaill1{
+width: 300px;
+}
 
   }
  
